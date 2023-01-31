@@ -87,3 +87,16 @@
     border-bottom: 1px dotted lightgray;
 
 }
+
+
+
+/*******************************FOOTER*************************/
+.footer-3 form button{
+    font-size: 10px;
+}
+.second-footer button{
+    display: block;
+    width: 5vw;
+    font-size: 10px;
+    margin-bottom: 50px;
+}

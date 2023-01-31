@@ -205,5 +205,63 @@ header{
     font-weight: bold;
 }
 
+
+/*****************************************COMMENTS***************************/
+.comments{
+    margin: 5vh 22vw;
+    height: 120vh;  
+}
+.suggestions{
+    width: 40%;
+}
+.suggestions h5{
+    padding: 10px;
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom: 1px dotted lightgray;
+}
+.suggestions a{
+    padding:100px 10px;
+   
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+}
+.reviews h5{
+    color: red;
+    border-bottom: 1px dotted lightgray;
+    padding: 10px;
+}
+.reviews-1{
+    border-bottom: 1px dotted lightgray;
+}
+.setting{
+    padding: 30px 50px 30px 10px;
+   
+}
+.setting i, .setting h6{
+    font-size: 15px;
+    font-weight: bold;
+}
+.setting p{
+    font-size: 15px;
+}
+.reviews-2{
+    line-height: 30px;
+}
+.links {
+    color: grey;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
   
 

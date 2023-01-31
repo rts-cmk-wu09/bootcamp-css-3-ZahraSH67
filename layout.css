@@ -134,3 +134,65 @@ header{
     grid-column: 4/-1;
     grid-row: 2/3;
 } 
+
+
+
+/********************************************ABONNEMENT********************************/
+.abonnement{
+    position: relative;
+}
+.last-news{
+    width: 30%;
+}
+
+ 
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.article-11{
+    position: absolute;
+    top: 15vh;
+    left: 17vw;
+}
+.article-12{
+    position: absolute;
+    top: 15vh;
+    left: 30vw;
+}
+.article-13{
+    position: absolute;
+    top: 15vh;
+    left: 42vw;
+}
+
+.article-14{
+    position: absolute;
+    top: 50vh;
+    left: 17vw;
+}
+.article-15{
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+}
+.article-16{
+    position: absolute;
+    top: 50vh;
+    left: 42vw;
+}
+.information-dk{
+    position: absolute;
+    top: 0;
+    left: 45vw;
+}
+.information-arrow{
+    position: absolute;
+    top: 7vh;
+    left: 17vw;
+
+}

@@ -71,3 +71,19 @@
     position: absolute;
     top:50vh;
 }
+
+
+
+
+/*****************************************ARTICLES****************************/
+.articles-button{
+    width: 15%;
+    height: 5vh;
+    grid-column: 1/ span 4;
+    grid-row: 1/ span 1;
+    background-color: white;
+    color: red;
+    border: none;
+    border-bottom: 1px dotted lightgray;
+
+}

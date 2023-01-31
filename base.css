@@ -150,5 +150,60 @@ header{
     height: 20vh;
 }
 
+
+
+
+/********************************************ABONNEMENT********************************/
+.abonnement{
+    margin: 5vh 22vw; 
+}
+.new-topic{
+    color: red;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted lightgrey;
+    font-weight: 900;
+}
+.last-news{
+    width: 30%;
+}
+.last-news-div{
+    padding: 10px;
+    height: 15vh;
+    border-bottom: 1px dotted lightgrey;
+}
+.last-news-div p{
+    font-size: 10px;
+}
+.last-news-div a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+} 
+
+.information{
+    width: 10vw;
+    height: 30vh;  
+}
+.information h5{
+    font-size: 10px;
+    font-weight: bold;
+}
+.information h6{
+    color: red;
+}
+.information p{
+    font-size: 10px;
+}
+.information img{
+    width: 10vw;
+    height: 15vh;
+}
+.information-dk{
+    color: red;
+    font-weight: bold;
+}
+
   
 

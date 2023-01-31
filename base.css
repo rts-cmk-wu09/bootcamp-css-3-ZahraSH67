@@ -1,0 +1,120 @@
+/* Base rules are default styles for HTML elements like links, paragraphs, and headlines */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/********************************************HEADER**********************************/
+header{
+    height: 35vh;
+    width: 100%;
+}
+
+.header-first-part img{
+    width: 40vw;
+    height: 30vh;
+    margin-right: 25vw;
+}
+.header-first-part{
+    border: 1px solid lightgray;
+    width: 100%;
+}
+.header-first-part form{
+    margin-right: 60px;
+    height: 10vh;
+    background-color: white; 
+    border: 1px solid white;
+    
+}
+
+.header-first-part form input{
+    border: 1px solid white;
+    
+}
+
+
+
+/**************************************************Announce******************************/
+.announce{
+    border-top: 1px solid lightgray;
+    margin: 5vh 0;
+}
+.announce div{
+    width: 50%;
+    height: 20vh;
+    background-color: lightgrey;
+}
+.announce p{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+}
+
+
+
+/*********************************************leading-article*****************************/
+.leading-article{
+    margin: 5vh 22vw;
+    padding: 20px 30px 10px 10px;
+}
+.leading-article article p:nth-child(2){
+    padding-bottom: 10px;
+    background-color: blueviolet;
+}
+.leading-article article h1{
+    font-size: 30px;
+}
+.leading-article article p:first-child{
+    color: red;
+}
+.leading-article article p:first-child span{
+    color: lightslategrey;
+}
+.leading-article article img{
+    width: 40vw;
+    height: 70vh;
+}
+
+
+
+
+/********************************************UDLAND***********************************/
+.udland{
+    margin: 5vh 22vw;
+    height: 80vh;
+}
+.udland-first-part{
+    margin-right: 10px;
+    width: 80%;   
+}
+.udland-first-part h5{
+    color: red;
+    border-bottom: 1px dotted black;
+}
+.udland-first-part div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.udland-first-part div img{
+    width: 3vw;
+    height: 6vh;
+    border-radius: 50%;
+}
+
+
+.udland-second-part p{
+    width: 60%;
+    text-align: left;
+}
+
+
+
+
+  
+

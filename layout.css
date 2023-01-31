@@ -194,5 +194,13 @@ header{
     position: absolute;
     top: 7vh;
     left: 17vw;
-
 }
+
+
+
+/*****************************************COMMENTS***************************/
+.comments{
+    display: flex;  
+}
+
+

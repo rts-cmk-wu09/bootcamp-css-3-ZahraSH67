@@ -1,0 +1,331 @@
+/* Base rules are default styles for HTML elements like links, paragraphs, and headlines */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/********************************************HEADER**********************************/
+header{
+    height: 35vh;
+    width: 100%;
+}
+
+.header-first-part img{
+    width: 40vw;
+    height: 30vh;
+    margin-right: 25vw;
+}
+.header-first-part{
+    border: 1px solid lightgray;
+    width: 100%;
+}
+.header-first-part form{
+    margin-right: 60px;
+    height: 10vh;
+    background-color: white; 
+    border: 1px solid white;
+    
+}
+
+.header-first-part form input{
+    border: 1px solid white;
+    
+}
+
+
+
+/**************************************************Announce******************************/
+.announce{
+    border-top: 1px solid lightgray;
+    margin: 5vh 0;
+}
+.announce div{
+    width: 50%;
+    height: 20vh;
+    background-color: lightgrey;
+}
+.announce p{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+}
+
+
+
+/*********************************************leading-article*****************************/
+.leading-article{
+    margin: 5vh 22vw;
+    padding: 20px 30px 10px 10px;
+}
+.leading-article article p:nth-child(2){
+    padding-bottom: 10px;
+    background-color: blueviolet;
+}
+.leading-article article h1{
+    font-size: 30px;
+}
+.leading-article article p:first-child{
+    color: red;
+}
+.leading-article article p:first-child span{
+    color: lightslategrey;
+}
+.leading-article article img{
+    width: 40vw;
+    height: 70vh;
+}
+
+
+
+
+/********************************************UDLAND***********************************/
+.udland{
+    margin: 5vh 22vw;
+    height: 80vh;
+}
+.udland-first-part{
+    margin-right: 10px;
+    width: 80%;   
+}
+.udland-first-part h5{
+    color: red;
+    border-bottom: 1px dotted black;
+}
+.udland-first-part div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.udland-first-part div img{
+    width: 3vw;
+    height: 6vh;
+    border-radius: 50%;
+}
+
+.udland-second-part p{
+    width: 60%;
+    text-align: left;
+}
+
+
+
+/************************************************ARTICLES************************************/
+.articles{
+    height: 40vh;
+    margin: 5vh 22vw; 
+}
+
+.articles-button{
+    width: 15%;
+    height: 5vh;
+    background-color: white;
+    color: red;
+    border: none;
+    border-bottom: 1px dotted lightgray;
+
+}
+.color{
+    color: grey;
+}
+.fa-circle-arrow-left {
+    margin-right: 10px;
+}
+.articles-div{
+    width: 5vw;
+    height: 5vh;
+    border-bottom: 1px dotted lightgray;
+    margin-left: 50px;
+}
+.article-1{
+    padding-left: 20px;
+
+}
+.image{
+    width: 10vw;
+    height: 20vh;
+}
+
+
+
+
+/********************************************ABONNEMENT********************************/
+.abonnement{
+    margin: 5vh 22vw; 
+}
+.new-topic{
+    color: red;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted lightgrey;
+    font-weight: 900;
+}
+.last-news{
+    width: 30%;
+}
+.last-news-div{
+    padding: 10px;
+    height: 15vh;
+    border-bottom: 1px dotted lightgrey;
+}
+.last-news-div p{
+    font-size: 10px;
+}
+.last-news-div a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+} 
+
+.information{
+    width: 10vw;
+    height: 30vh;  
+}
+.information h5{
+    font-size: 10px;
+    font-weight: bold;
+}
+.information h6{
+    color: red;
+}
+.information p{
+    font-size: 10px;
+}
+.information img{
+    width: 10vw;
+    height: 15vh;
+}
+.information-dk{
+    color: red;
+    font-weight: bold;
+}
+
+
+/*****************************************COMMENTS***************************/
+.comments{
+    margin: 5vh 22vw;
+    height: 120vh;  
+}
+.suggestions{
+    width: 40%;
+}
+.suggestions h5{
+    padding: 10px;
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom: 1px dotted lightgray;
+}
+.suggestions a{
+    padding:100px 10px;
+   
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+}
+.reviews h5{
+    color: red;
+    border-bottom: 1px dotted lightgray;
+    padding: 10px;
+}
+.reviews-1{
+    border-bottom: 1px dotted lightgray;
+}
+.setting{
+    padding: 30px 50px 30px 10px;
+   
+}
+.setting i, .setting h6{
+    font-size: 15px;
+    font-weight: bold;
+}
+.setting p{
+    font-size: 15px;
+}
+.reviews-2{
+    line-height: 30px;
+}
+.links {
+    color: grey;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/**************************************FOOTER*******************************/
+footer{
+    background-color: gainsboro;
+    height: 80vh;
+    font-size: 10px;
+    font-weight: bold;
+}
+.first-footer{
+    height: 80%;
+    margin: 5vh 22vw; 
+    height: 80vh;
+    border-bottom: 1px solid white;
+}
+.footer-1{
+    width: 30%;
+    margin-right: 1vw;
+}
+.footer-1 section h5, .footer-1 section p{
+    margin-bottom: 10px;
+}
+.footer-1  section a{
+    text-decoration: none;
+    display: block;
+    padding-bottom: 10px;
+    color: gray;
+} 
+.footer-2{
+    margin-right: 5vw;
+    width: 35vw;
+}
+.footer-2 aside img{
+    width: 15vw;
+    margin-top: -50px;
+    border: 1px solid lightgray;
+    margin-right: 1vw;
+    
+}
+
+.footer-3 h5{
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+
+}
+.footer-3 form input{
+    width: 7vw;
+    font-size: 8px;
+    color: lightgray;
+}
+
+.footer-4 a, .footer-5 a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+}
+.footer-5{
+    width: 20vw;
+}
+
+.second-footer p{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+
+
+  
+

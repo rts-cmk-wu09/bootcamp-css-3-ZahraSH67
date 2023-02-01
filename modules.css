@@ -1,0 +1,102 @@
+/* Modules (aka “objects” or “blocks”) are the reusable, modular parts of a design. For example, buttons, media objects, product lists, etc. */
+
+
+
+/********************************HEADER************************/
+
+.header-first-part button{
+    background-color: white;
+    border: none;
+}
+
+.header-first-part nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header-second-part {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    padding-top: 20px;
+
+}
+.header-second-part ul{   
+    width: 50vw;  
+}
+
+.header-second-part ul li{
+    list-style: none;
+
+}
+.header-second-part ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*******************************************UDLAND*******************************/
+.udland-second-part div:nth-child(1) button{
+    display: block;
+    background-color: white;
+    border: none;
+}
+
+.social-media button:first-child{
+    background-color: darkslateblue;
+    color: white;
+    width: 6vw;
+    border: none;
+    height: 5vh;
+}
+.social-media button:nth-child(2){
+    color: white;
+    background-color: deepskyblue;
+    width: 6vw;
+    border: none;
+}
+.social-media button:nth-child(3){
+    color: white;
+    background-color: grey;
+    width: 6vw;
+    border: none;
+}
+.red-button{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    width: 12vw;
+    height: 5vh;
+    position: absolute;
+    top:50vh;
+}
+
+
+
+
+/*****************************************ARTICLES****************************/
+.articles-button{
+    width: 15%;
+    height: 5vh;
+    grid-column: 1/ span 4;
+    grid-row: 1/ span 1;
+    background-color: white;
+    color: red;
+    border: none;
+    border-bottom: 1px dotted lightgray;
+
+}
+
+
+
+/*******************************FOOTER*************************/
+.footer-3 form button{
+    font-size: 10px;
+}
+.second-footer button{
+    display: block;
+    width: 5vw;
+    font-size: 10px;
+    margin-bottom: 50px;
+}
